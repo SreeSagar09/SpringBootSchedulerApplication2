@@ -1,0 +1,29 @@
+A Program to show how to configure simple spring boot schedulers and how to use configure fixedDelayString, fixedRateString and initialDelayString:
+Programs:
+* SpringBootSchedulerApplication1Application.java
+* SchedulerValues.java
+* SchedulerConfig.java
+* AppSchedulers.java
+Notes:
+* fixedDelayString attribute is used to give fixed delay in string format or SpEl format.
+* fixedRateString attribute is used to give fixed rate in string format or SpEl format.
+* initialDelayString attribute is used to give initial delay in string format or SpEl format.
+Output:
+From doSchedulerWork2 method: Timestamp: Wed Sep 17 23:33:57 IST 2025, ThreadName: scheduling-1
+From doSchedulerWork1 method: Timestamp: Wed Sep 17 23:33:57 IST 2025, ThreadName: scheduling-1
+From main method in SpringBootSchedulerApplication2Application class.
+From doSchedulerWork2 method: Timestamp: Wed Sep 17 23:34:00 IST 2025, ThreadName: scheduling-1
+From doSchedulerWork3 method: Timestamp: Wed Sep 17 23:34:00 IST 2025, ThreadName: scheduling-1
+From doSchedulerWork4 method: Timestamp: Wed Sep 17 23:34:00 IST 2025, ThreadName: scheduling-1
+From doSchedulerWork4 method: Timestamp: Wed Sep 17 23:34:01 IST 2025, ThreadName: scheduling-1
+From doSchedulerWork3 method: Timestamp: Wed Sep 17 23:34:02 IST 2025, ThreadName: scheduling-1
+From doSchedulerWork1 method: Timestamp: Wed Sep 17 23:34:02 IST 2025, ThreadName: scheduling-1
+From doSchedulerWork4 method: Timestamp: Wed Sep 17 23:34:02 IST 2025, ThreadName: scheduling-1
+From doSchedulerWork2 method: Timestamp: Wed Sep 17 23:34:03 IST 2025, ThreadName: scheduling-1
+From doSchedulerWork4 method: Timestamp: Wed Sep 17 23:34:03 IST 2025, ThreadName: scheduling-1
+From doSchedulerWork3 method: Timestamp: Wed Sep 17 23:34:04 IST 2025, ThreadName: scheduling-1
+From doSchedulerWork4 method: Timestamp: Wed Sep 17 23:34:04 IST 2025, ThreadName: scheduling-1
+From doSchedulerWork4 method: Timestamp: Wed Sep 17 23:34:05 IST 2025, ThreadName: scheduling-1
+From doSchedulerWork2 method: Timestamp: Wed Sep 17 23:34:06 IST 2025, ThreadName: scheduling-1
+From doSchedulerWork3 method: Timestamp: Wed Sep 17 23:34:06 IST 2025, ThreadName: scheduling-1
+From doSchedulerWork4 method: Timestamp: Wed Sep 17 23:34:06 IST 2025, ThreadName: scheduling-1
